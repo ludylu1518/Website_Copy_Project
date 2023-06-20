@@ -31,6 +31,10 @@ footer {
     padding-left: 20px;
 }
 
+.navbar-brand > img {
+    width: 50px;
+}
+
 #navTabs {
     margin-right: 10px;
     justify-content: end;
@@ -78,6 +82,14 @@ footer {
 
 /* styling for smaller screens */
 @media only screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+
+    .navbar-brand > img {
+        width: 90px;
+    }
 
     #navTabs > ul {
         overflow: auto;
