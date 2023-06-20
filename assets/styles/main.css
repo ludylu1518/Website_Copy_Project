@@ -1,0 +1,125 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* footer styling */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    word-spacing: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer > a:hover {
+    color: grey;
+}
+/*               */
+
+/* navigation bar styling */
+.navbar-brand {
+    padding-left: 20px;
+}
+
+#navTabs {
+    margin-right: 10px;
+    justify-content: end;
+}
+
+.navbar-toggler-icon {
+    background-color: red;
+}
+
+#navTabs > ul > li > a {
+    color: white;
+}
+
+#navTabs > ul > li:hover a {
+    color: grey;
+}
+
+#navTabs .dropdown-menu {
+    width: 180px;
+    background-color: red;
+    border-radius: 0;
+}
+
+#navTabs .dropdown-menu .dropdown-item {
+   font-size: 13px;
+   font-weight: bold;
+   color: white;
+}
+
+#navTabs .dropdown-menu .dropdown-item:hover {
+    background-color: red;
+    color: lightgrey;
+}
+
+/* wrap text in dropdown menu */
+#navTabs .dropdown-menu .dropdown-item, #navTabs .dropdown-menu .dropdown-item a {
+    word-break: break-word;
+    white-space: normal;
+}
+
+.footer-tab {
+    display: none;
+}
+/*                */
+
+/* styling for smaller screens */
+@media only screen and (max-width: 768px) {
+
+    #navTabs > ul {
+        overflow: auto;
+        height: 100vh;
+    }
+
+    #navTabs > ul > li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #navTabs > ul > li > a {
+        font-size: 25px;
+    }
+
+    #navTabs .dropdown-menu {
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+
+    #navTabs .dropdown-menu .dropdown-item {
+        font-size: 20px;
+    }
+
+    #navTabs .dropdown-menu .dropdown-item:hover {
+        background-color: black;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .footer-tab > a {
+        text-decoration: none;
+    }
+
+    .padding-for-last-item {
+        padding: 20px;
+    }
+
+}
