@@ -22,8 +22,9 @@ footer {
 }
 
 #carouselSlide > button {
-    bottom: 30%;
+    bottom: 40%;
     opacity: 1.0;
+    z-index: 10;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -35,10 +36,8 @@ footer {
 .carousel-content {
     z-index: 5;
     position: absolute;
-    bottom: 58%;
-    text-align: center;
-    margin-left: 18%;
-    width: 65%;
+    bottom: 56%;
+    text-align: center;    
 }
 
 .carousel-content h2 {
@@ -57,6 +56,8 @@ footer {
     background-color: rgb(222, 6, 6);
     padding: 10px 15px 12px 15px;
     border-radius: 2px;
+    margin: 0px 10px;
+    line-height: 4;
 }
 
 .carousel-content h2, .carousel-content h5, .carousel-content a {
@@ -64,17 +65,58 @@ footer {
     text-decoration: none;
 }
 
+.carousel-content p a:hover {
+    background-color: black;
+}
+
+.bot-content {
+    z-index: 8;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    background-color: black;
+    height: 30%;
+    padding-top: 50px;
+}
+
+.bot-content .row a{
+    color: lightgray;
+    text-decoration: none;
+    line-height: 1.3;
+    font-family: 'Josefin Sans', sans-serif, 'Times New Roman', Times, serif;
+}
+
+#collected {
+    font-size: 3em;
+    border-bottom: 1px solid white;
+}
+
+#hd {
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .carousel-content {
+        bottom: 45%;
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+
 /* styling for smaller screen */
 @media only screen and (max-width: 768px) {
 
     .carousel-item > img {
         width: auto;
+        transform: scale(1.4);
         height: 700px;
     }
 
     #carouselSlide > button {
         bottom: 0;
-        z-index: 10;
     }
 
     .carousel-content {
@@ -88,13 +130,14 @@ footer {
     }
 
     .carousel-links {
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-   
+       width: 80%;        
+       margin-left: 70px;
     }
 
-    .carousel-content a {
-        font-size: 12px;
+    .carousel-links p a{
+       font-size: 12px; 
+       line-height: 4; 
+       margin: 0px 3px;
+       overflow-wrap: break-word;
     }
 }

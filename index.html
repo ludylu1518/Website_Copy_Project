@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/main.css" text="text/css">
     <link rel="stylesheet" href="./assets/styles/homePage.css" text="text/css">
     <title>CO</title>
@@ -86,25 +89,25 @@
     <!-- slideshow of homepage -->
     <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="2000">
             <img src="./assets/images/background1.png" class="d-block w-100" alt="all the plates">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/pho.avif" class="d-block w-100" alt="Pho">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/ramen.avif" class="d-block w-100" alt="Ramen">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/dumpling.avif" class="d-block w-100" alt="Dumplings">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/banh-mi.avif" class="d-block w-100" alt="Banh Mi">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/sushi.avif" class="d-block w-100" alt="Sushi">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/images/cocktail.avif" class="d-block w-100" alt="Cocktail">
           </div>
         </div>
@@ -129,26 +132,26 @@
                     <h5>Pho | Ramen | Dumplings | Banh Mi | Sushi | Coctails</h5>
                 </div>
             </div>
-            <div class="row carousel-links">
-                <div class="col-lg-2 col-sm-4">
-                    <a href="#">CHARLESTON</a>
-                </div>
-                <div class="col-lg-3 col-sm-4">
-                    <a href="#">CHARLOTTE - WAVERLY</a>
-                </div>
-                <div class="col-lg-3 col-sm-4">
-                    <a href="#">CHARLOTTE - PARK ROAD</a>
-                </div>
-                <div class="col-lg-2 col-sm-3">
-                    <a href="#">MYRTLE BEACH</a>
-                </div>
-                <div class="col-lg-2 col-sm-3">
-                    <a href="#">RALEIGH</a>
-                </div>
+            <div class="row carousel-links">                
+                <p><a href="#">CHARLESTON</a>         
+                <a href="#">CHARLOTTE - WAVERLY</a>                
+                <a href="#">CHARLOTTE - PARK ROAD</a>                      
+                <a href="#">MYRTLE BEACH</a>            
+                <a href="#">RALEIGH</a></p>               
             </div>
         </div>
     </div>
 
+
+    <!-- bottom content after carousel slides -->
+    <div class="container bot-content">
+        <div class="row">
+            <a href="#"><span id="collected">COLLECTED</span></a>
+        </div>
+        <div class="row">
+            <a href="#" id="hd">hospitality + development</a>
+        </div>
+    </div>
 
     <!-- footer of page -->
     <footer>
