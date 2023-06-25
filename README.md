@@ -5,9 +5,11 @@ Using bootstrap, css and html
 
 ### Home Page
     index.html
-    main.css
+    homePage.css
   
 ### Gift Cards
     gift_card.html
     gift_card.css
 
+## Navbar and Footer styling
+    main.css
