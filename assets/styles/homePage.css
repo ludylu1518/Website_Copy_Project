@@ -111,16 +111,15 @@ footer {
 
     .carousel-item > img {
         width: auto;
-        transform: scale(1.4);
-        height: 700px;
+        transform: scale(1.6);
     }
 
     #carouselSlide > button {
-        bottom: 0;
+        bottom: 0%;
     }
 
     .carousel-content {
-        bottom: 30%;
+        bottom: 40%;
         width: 100%;
         margin: 0;
     }
