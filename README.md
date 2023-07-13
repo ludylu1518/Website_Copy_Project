@@ -6,10 +6,6 @@ Using bootstrap, css and html
 ### Home Page
     index.html
     homePage.css
-  
-### Gift Cards
-    gift_card.html
-    gift_card.css
 
 ## Navbar and Footer styling
     main.css
