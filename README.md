@@ -7,9 +7,5 @@ Using bootstrap, css and html
     index.html
     homePage.css
 
-## Gift Card
-    giftCard.html
-    giftCard.css
-
 ## Navbar and Footer styling
     main.css
